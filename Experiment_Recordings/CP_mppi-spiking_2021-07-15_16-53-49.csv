@@ -1,0 +1,30 @@
+# This is CartPole simulation from 15.07.2021 at time 16:53:49
+# Done with git-revision: 603d21962bca5d3a642044a4cd2195dda129ea73
+#
+# Length of experiment: 0.0 s
+#
+# Time intervals dt:
+# Simulation: 0.002 s
+# Controller update: 0.02 s
+# Saving: 0.02 s
+#
+# Controller: mppi-spiking
+#
+# Parameters:
+# m: 0.087
+# M: 0.23
+# L: 0.1975
+# u_max: 6.21
+# M_fric: 6.34
+# J_fric: 0.00025
+# v_max: 0.8
+# TrackHalfLength: 0.198
+# controlDisturbance: 0.0
+# controlBias: 0.0
+# sensorNoise: 0.0
+# g: 9.81
+# k: 1.3333333333333333
+#
+# Data:
+time,angle,angleD,angleDD,angle_cos,angle_sin,position,positionD,positionDD,Q,u,target_position
+0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-0.0,0.0,0.0,0.0

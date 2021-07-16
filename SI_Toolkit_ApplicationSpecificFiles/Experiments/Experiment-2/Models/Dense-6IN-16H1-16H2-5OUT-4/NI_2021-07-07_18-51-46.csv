@@ -1,0 +1,27 @@
+# This is normalization information calculated 2021-07-07 at time 18-51-46
+# Done with git-revision: 37308b02c128aa805559d79a37964a4e7ffb9d90
+#
+# Sampling interval of data used to calculate normalization: 0.02 s
+#
+# Data files used to calculate normalization information:
+#     ./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2/Recordings/Train\Experiment-1.csv
+#     ./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2/Recordings/Train\Experiment-2.csv
+#     ./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2/Recordings/Train\Experiment-3.csv
+#     ./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2/Recordings/Train\Experiment-4.csv
+#     ./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2/Recordings/Train\Experiment.csv
+#
+# Original (calculated from data) Normalization Information:
+#,         ,      ,         ,Q,         ,angle,         ,angleD,         ,angleDD,         ,angle_cos,         ,angle_sin,         ,position,         ,positionD,         ,positionDD,         ,target_position,         ,u,         
+#,           ,mean,           ,-0.00278,           ,0.00023,           ,-0.00031,           ,0.00204,           ,0.99957,           ,0.00023,           ,0.01039,           ,-0.00265,           ,-0.00129,           ,0.00765,           ,-0.01726,           
+#,           ,std,           ,0.15606,           ,0.02917,           ,0.11213,           ,1.19651,           ,0.00068,           ,0.02915,           ,0.08273,           ,0.15033,           ,0.74881,           ,0.09468,           ,0.96916,           
+#,           ,max,           ,0.43943,           ,0.0972,           ,0.31783,           ,9.90145,           ,1.0,           ,0.09705,           ,0.17165,           ,0.41885,           ,4.56063,           ,0.15829,           ,2.72889,           
+#,           ,min,           ,-0.40819,           ,-0.09272,           ,-0.30632,           ,-7.95411,           ,0.99528,           ,-0.09259,           ,-0.17894,           ,-0.38811,           ,-3.94817,           ,-0.15813,           ,-2.53485,           
+#
+# Does user modified normalization info calculated from data?: Yes
+#
+# Normalization Information:
+,Q,angle,angleD,angleDD,angle_cos,angle_sin,position,positionD,positionDD,target_position,u
+mean,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+std,0.15606,0.02917,0.11213,1.19651,0.00068,0.02915,0.08273,0.15033,0.74881,0.09468,0.96916
+max,1.0,3.14159,0.31783,9.90145,1.0,1.0,0.198,0.41885,4.56063,0.198,6.21
+min,-1.0,-3.14159,-0.31783,-9.90145,-1.0,-1.0,-0.198,-0.41885,-4.56063,-0.198,-6.21

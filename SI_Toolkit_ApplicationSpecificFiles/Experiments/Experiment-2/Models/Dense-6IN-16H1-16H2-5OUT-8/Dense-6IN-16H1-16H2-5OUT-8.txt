@@ -1,0 +1,41 @@
+CREATED:
+2021-07-08 at time 14:38:35
+
+WITH GIT REVISION:
+603d21962bca5d3a642044a4cd2195dda129ea73
+
+NET NAME:
+Dense-16H1-16H2
+
+NET FULL NAME:
+Dense-6IN-16H1-16H2-5OUT-8
+
+INPUTS:
+Q, angleD, angle_cos, angle_sin, position, positionD
+
+OUTPUTS:
+angleD, angle_cos, angle_sin, position, positionD
+
+TYPE:
+Dense
+
+NORMALIZATION:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2/Models/Dense-6IN-16H1-16H2-5OUT-8/NI_2021-07-07_18-51-46.csv
+
+SAMPLING INTERVAL:
+0.02 s
+
+PARENT NET:
+Network trained from scratch
+
+WASH OUT LENGTH:
+10
+
+TRAINING_FILES:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2//Recordings/Train/
+
+VALIDATION_FILES:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2//Recordings/Train/
+
+TEST_FILES:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Experiment-2//Recordings/Train/

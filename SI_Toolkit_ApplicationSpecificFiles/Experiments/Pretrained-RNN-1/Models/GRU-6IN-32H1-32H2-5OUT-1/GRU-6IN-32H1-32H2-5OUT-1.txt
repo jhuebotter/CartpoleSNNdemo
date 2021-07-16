@@ -1,0 +1,41 @@
+CREATED:
+2021-07-08 at time 14:37:05
+
+WITH GIT REVISION:
+603d21962bca5d3a642044a4cd2195dda129ea73
+
+NET NAME:
+GRU-32H1-32H2
+
+NET FULL NAME:
+GRU-6IN-32H1-32H2-5OUT-1
+
+INPUTS:
+Q, angleD, angle_cos, angle_sin, position, positionD
+
+OUTPUTS:
+angleD, angle_cos, angle_sin, position, positionD
+
+TYPE:
+GRU
+
+NORMALIZATION:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Pretrained-RNN-1/Models/GRU-6IN-32H1-32H2-5OUT-1/NI_2021-06-29_12-02-03.csv
+
+SAMPLING INTERVAL:
+0.02 s
+
+PARENT NET:
+GRU-6IN-32H1-32H2-5OUT-0
+
+WASH OUT LENGTH:
+10
+
+TRAINING_FILES:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Pretrained-RNN-1//Recordings/Train/
+
+VALIDATION_FILES:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Pretrained-RNN-1//Recordings/Train/
+
+TEST_FILES:
+./SI_Toolkit_ApplicationSpecificFiles/Experiments/Pretrained-RNN-1//Recordings/Train/
